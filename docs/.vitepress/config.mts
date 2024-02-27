@@ -11,8 +11,7 @@ export default defineConfig({
     logo: '/logo.webp',
 
     editLink: {
-      pattern:
-        'https://github.com/epoch-lab/blog101/edit/main/docs/course/:path',
+      pattern: 'https://github.com/epoch-lab/blog101/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页面',
     },
 
