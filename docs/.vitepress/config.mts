@@ -5,12 +5,14 @@ export default defineConfig({
   title: 'BLOG101',
   description: '通过搭建博客来掌握学习计算机科学的基本技能。',
   lang: 'zh-CN',
+  head: [['link', { rel: 'icon', href: '/favicon.webp' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.webp',
 
     editLink: {
-      pattern: 'https://github.com/epoch-lab/blog101/edit/main/:path',
+      pattern:
+        'https://github.com/epoch-lab/blog101/edit/main/docs/course/:path',
       text: '在 GitHub 上编辑此页面',
     },
 
